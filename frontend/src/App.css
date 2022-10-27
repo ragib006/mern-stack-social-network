@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+body{
+
+    overflow-x: hidden;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.myitem{
+
+    transition:all .5s ease;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.myitem:hover {
+    background-color:#F8F9FA;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .maindd{
+
+   background-color:#F8F9FA;
+
+ 	
+ }
+
+
+ .scrollsectionpage{
+
+ overflow-y: scroll;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  height:300px;
+
+
+ }
+
+ .middle-scroll{
+
+
+ overflow-y: scroll;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  height:700px;
+
+
+ }
+
+ .activeuserscroll{
+
+ overflow-y: scroll;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  height:350px;
+
+
+ }
+
+ .groupscroll{
+
+
+
+ overflow-y: scroll;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  height:250px;
+
+
+ }
+
+ .coverphoto{
+
+position:relative;
+
+
+
+ }
+
+ .coverbutton{
+
+
+position:absolute;
+
+top:55%;
+left:75%;
+
+ }
+
+ .profileimage{
+
+
+position:absolute;
+
+top:58%;
+left:10%;
+
+
+ }
+
+ .myprofileimage{
+
+position:relative;
+
+ }
+
+
+ .dfdgdfg{
+
+position:absolute;
+top:58%;
+left:80%;
+
+  
+ }
+
+ .myicon{
+
+
+
+ }
+
+ .myicon{
+
+   background-color:#F8F9FA;
+
+
+ }
+
+
+ .infobutton{
+
+
+   background-color:white;
+
+ }
+
+ .mypostscroll{
+
+
+ overflow-y: scroll;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  height:780px;
+
+
+
+ }
